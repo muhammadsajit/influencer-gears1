@@ -1,0 +1,49 @@
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+
+}
+.product-title{
+    font-size: 24px;
+    margin-left: 100px;
+    font-weight: 700;
+    padding-top: 50px;
+   
+    
+
+}
+/* Style of Influencer */
+section{
+    display:flex;
+    margin-bottom: 150px;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.partial-width{
+    width: 582px;
+    height: 286px;
+    
+
+}
+.partial-width img{
+    width: 440px;
+    height: 414px;
+    margin-left: 136px;
+   
+   
+}
+.button{
+    background: #E02C6D;
+    color: white;
+    font-weight: 700;
+    padding:10px 10px;
+    border-radius:24px;
+
+}
