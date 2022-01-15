@@ -1,7 +1,8 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
-   
+   margin: 0;
+   padding:0;
     
 
 }
@@ -15,7 +16,7 @@ body{
 
 }
 /* Style of Influencer */
-section{
+.flexible{
     display:flex;
     margin-bottom: 300px;
     justify-content: center;
@@ -100,5 +101,12 @@ h1{
     
     
     
+    
 
+}
+/* style of mobile application */
+.container img
+{
+    width: 404px;
+    height: 300px;
 }
