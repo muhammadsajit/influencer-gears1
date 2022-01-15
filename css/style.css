@@ -44,14 +44,31 @@ h1{
    
    
 }
-.button{
+/* using animation */
+.button1{
     background: #E02C6D;
     color: white;
     font-weight: 700;
     padding:10px 10px;
     border-radius:24px;
+    cursor: pointer;
+    
 
 }
+.button1:hover{
+    background-color:tomato ;
+}
+
+.button2{
+    background: #E02C6D;
+    color: white;
+    font-weight: 700;
+    padding:10px 10px;
+    border-radius:24px;
+    
+
+}
+
 
 /*----- style of collection ----*/
 .heading{
@@ -95,18 +112,29 @@ h1{
     color: orange;
 }
 /* see more added */
-.see{
+.see {
 
     color: #E02C6DDE;
-    
-    
-    
-    
-
-}
+    }
 /* style of mobile application */
 .container img
 {
     width: 404px;
     height: 300px;
 }
+/* style of footer */
+footer{
+    text-align: center;
+    background-color: darkblue;
+    color:white;
+   
+    font-weight: 700;
+    }
+    .flex{
+        display:grid;
+        grid-template-columns: 10px 10px 10px 10px;
+        grid-gap:16px;
+        justify-content: center;
+        padding:10px; 
+    }
+
